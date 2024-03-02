@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <!-- Добавьте этот тег в ваш HTML-файл для подключения JavaScript -->
+<script src="main.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сеть Могильного Хохота</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo" class="glitch">GraveGiggleNet</div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Исследовать</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+        </header>
+        <audio id="hover-sound" src="hover.mp3" preload="auto"></audio>
+        <audio id="click-sound" src="click.mp3" preload="auto"></audio>
+        <script src="main.js"></script>
+        <main class="main">
+            <section class="hero">
+                <h1 class="hero__title">Echoes from the Digital Void</h1>
+                <p class="hero__text">Where Shadows Whisper Secrets</p>
+            </section>
+            <section class="features cyber-grid">
+                <div class="feature-item">
+                    <img src="https://i.postimg.cc/nrBsPTv2/1536234131-44dc1f47393655-58823b49e737b.gif" alt="Feature 1" class="feature-image">
+                    <h3 class="feature-title">Новые приключения</h3>
+                    <div class="feature-description">
+                        <p>Добро пожаловать в <strong>"Сеть Могильного Хохота"</strong> - ваш личный портал в эпоху кибер-ренессанса.</p>
+                        <p>Наши сервера - это <strong>фортепиано для фриков</strong>, готовых играть на клавишах кода, создавая мелодии из данных.</p>
+                        <p><strong>"Сеть Могильного Хохота"</strong> - это не просто сайт, это андерграундная лаборатория нового поколения.</p>
+                        <p>Мы приглашаем вас присоединиться к нашему сообществу, где каждый байт имеет значение.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="registration">
+                <h2 class="registration__title">Регистрация</h2>
+                <form action="registration_handler.php" method="post" class="registration__form">
+                    <input type="text" name="username" placeholder="Имя пользователя" required>
+                    <input type="email" name="email" placeholder="Электронная почта" required>
+                    <input type="password" name="password" placeholder="Пароль" required>
+                    <button type="submit">Зарегистрироваться</button>
+                </form>
+            </section>
+            
+            <section class="gallery">
+                <!-- Галерея изображений -->
+            </section>
+            
+        </main>
+        <footer class="footer">
+            <p>© 2024 Cyber Neko World</p>
+        </footer>
+    </div>
+</body>
+</html>
